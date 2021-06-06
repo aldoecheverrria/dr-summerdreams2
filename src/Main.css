@@ -43,10 +43,12 @@
 
 .image1 {
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .image2 {
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .basedOn {

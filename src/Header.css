@@ -17,4 +17,5 @@
   display: table;
   margin: 3px;
   border: 2px solid #d5b1fc;
+  cursor: pointer;
 }
