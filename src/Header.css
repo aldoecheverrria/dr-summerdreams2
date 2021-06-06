@@ -8,10 +8,13 @@
 }
 
 .socialLogos > .MuiSvgIcon-root {
-  font-size: 2.25rem;
+  font-size: 2rem;
   line-height: 2.5rem;
-  border-radius: 0.5rem;
-  padding: 0.2rem;
+  border-radius: 15px;
+  padding: 0.5rem;
   margin: 0.2rem;
   color: #d5b1fc;
+  display: table;
+  margin: 3px;
+  border: 2px solid #d5b1fc;
 }

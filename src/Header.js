@@ -15,7 +15,7 @@ function Header() {
         alt="logo"
       />
         <div className="socialLogos">
-<InstagramIcon/>
+            <InstagramIcon/>
             <TwitterIcon/>
             <FacebookIcon/>
             <YouTubeIcon/>

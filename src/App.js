@@ -1,8 +1,10 @@
 import './App.css';
 import MenuIcon from '@material-ui/icons/Menu';
 import LocalMallIcon from '@material-ui/icons/LocalMall';
-import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
-import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+import ArrowBackIcon from '@material-ui/icons/ArrowBack';
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+
+
 
 import Header from './Header';
 import Main from './Main';
@@ -20,14 +22,19 @@ function App() {
         <div className="bottom">
           <div className="product" >
             <div className="product__container">
-              <h2>Chinesse outfit embroidery</h2>
+              <h2>Fun yellow outfit</h2>
             <LocalMallIcon/> 
             </div>
             <p>$120.90</p>
           </div>
           <div className="arrows">
-            <ArrowBackIosIcon/>
-            <ArrowForwardIosIcon/>
+            <div className="containerArrow arrowBack">
+            <ArrowBackIcon/>
+            </div>
+            <div className="containerArrow arrowForward">
+              <ArrowForwardIcon/>
+            </div>
+            
           </div>
 
         </div>

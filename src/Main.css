@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
+
 .main {
   display: flex;
   justify-content: center;
@@ -12,16 +15,22 @@
   flex-direction: column;
 }
 .heroText {
-  font-weight: 700;
-  font-size: 3.5rem;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 2.8rem;
   line-height: 1;
+  /*font-family: "Krona One", sans-serif;*/
+  font-family: "Bungee Shade", cursive;
 }
 
 .collectionButton {
   display: flex;
   justify-content: center;
   margin-top: 2.5rem;
-  padding-right: 3.5rem;
+  padding-left: 2.8rem;
+}
+.collectionButton > h3 {
+  font-weight: bold;
 }
 
 .otherProducts {
@@ -38,4 +47,12 @@
 
 .image2 {
   margin-left: 10px;
+}
+
+.basedOn {
+  position: absolute;
+  right: 100;
+  top: 0;
+  font-weight: 100;
+  font-size: small;
 }

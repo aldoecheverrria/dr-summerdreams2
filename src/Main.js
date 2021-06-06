@@ -1,6 +1,7 @@
 import './Main.css'
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 
+
 function Main() {
     return (
         <div className="main">
@@ -13,8 +14,11 @@ function Main() {
                 <h1 style={{marginLeft:135}}>Dreams</h1>
             </div>
             <div className="collectionButton">
-                <h3>Discover the collection</h3>
-            <ArrowForwardIcon/>
+                <h3> Discover The Collection</h3>
+                <ArrowForwardIcon/>
+            </div>
+            <div className="basedOn">
+                <h3>Based on Dribbble Design, original <a target="_blank" href="https://dribbble.com/shots/15747307-Fashion-e-commerce-homescreen-Daily-UI-01">here</a></h3>
             </div>
             <div className="otherProducts">
                 <img className="image1" width={170} height={170} src="https://cdn.pixabay.com/photo/2016/12/17/18/51/lilacs-1914124_960_720.jpg"/>
