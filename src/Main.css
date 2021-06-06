@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1.25rem;
+  margin-left: 10%;
+}
+
+.paragraph {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+}
+.heroText {
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1;
+}
+
+.collectionButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+  padding-right: 3.5rem;
+}
+
+.otherProducts {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: -1rem;
+}
+
+.image1 {
+  margin-right: 10px;
+}
+
+.image2 {
+  margin-left: 10px;
+}

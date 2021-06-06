@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialLogos {
+  display: flex;
+}
+
+.socialLogos > .MuiSvgIcon-root {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+  margin: 0.2rem;
+  color: #d5b1fc;
+}
