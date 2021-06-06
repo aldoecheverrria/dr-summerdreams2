@@ -19,7 +19,7 @@
   position: relative;
   height: 100vh;
   width: 50%;
-  background-image: url("https://i.pinimg.com/originals/e8/e6/61/e8e6617f6c10eedb34737462e05d55a4.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2021/04/03/02/31/ao-dai-6146344_960_720.jpg");
   background-size: cover; /* layout=filled? */
 }
 
@@ -29,7 +29,7 @@
   width: 2.5rem;
   right: 2.5rem !important;
   margin-left: auto;
-  margin: 1.5rem;
+  margin: 1.2rem 0.01rem;
   border-radius: 0.5rem;
   background-color: white;
   padding: 0.25rem;
@@ -44,6 +44,36 @@
   padding: 0.25rem;
   background-color: white;
   --tw-bg-opacity: 0.4;
-  height: 12rem;
+  height: 25%;
   width: 100%;
+  /* backdrop-filter */
+  /*box-shadow: 0 25px 50px rgba(255, 255, 255, 0.5);*/
+  /*background: transparent;*/
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(1px);
+}
+
+.product__container {
+  display: flex;
+  align-items: center;
+  margin-left: 2.5rem;
+}
+
+.product h2 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.product p {
+  margin-left: 2.5rem;
+}
+
+.product__container > .MuiSvgIcon-root {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-left: 1rem;
+}
+
+.icons > .MuiSvgIcon-root {
 }
